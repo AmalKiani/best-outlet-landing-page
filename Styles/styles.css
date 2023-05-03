@@ -83,6 +83,7 @@ button {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 55px;
+    border-bottom: 3px solid #1F2937;
 }
 .bestbuy h2{
     font-size: 36px;
