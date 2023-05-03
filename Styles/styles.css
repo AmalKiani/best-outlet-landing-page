@@ -146,17 +146,15 @@ button {
 
 .testimonial {
     background-color: #E5E7Eb;
-    padding: 100px 100px;
+    padding: 50px 50px;  
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
-.reviews{
-    
 
-}
 .taggbox {
-    width:100;
+    width:750px;
     height: 100;
     margin-bottom: 50px;
 }
