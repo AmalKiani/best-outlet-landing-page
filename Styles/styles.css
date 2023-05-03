@@ -63,9 +63,7 @@ button {
     align-items: start;
     padding: 50px 0;
 }
-.hero-text p{
 
-}
 .placeholder{
     width: 50%;
     display: flex;
@@ -264,4 +262,22 @@ textarea {
 .footnote {
     width: 400px;
     margin: auto;
+}
+
+
+/* 
+//////////////////////////////////////////////////////
+
+ M E D I A - Q U E R I E E S
+
+//////////////////////////////////////////////////////
+*/
+
+@media all and (max-width: 600px) {
+    /* Hero Section */
+    .hero h1{
+        font-size: 35px;
+        font-weight:bolder;
+        color: #F9FAF8;
+    }
 }
