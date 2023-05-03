@@ -1,0 +1,269 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ul{
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+}
+button {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 15px;
+    margin:10px 0;
+}
+
+
+/* HERO SECTION -------------------------------------------*/
+
+
+.hero h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding:0 50px 100px 100px;
+}
+.navbar{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #E5E7EB;
+}
+.logo{
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.hero-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 800px;
+    margin: auto;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 50px 0;
+}
+.hero-text p{
+
+}
+.placeholder{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 50%;
+}
+
+
+/* BEST BUY SECTION -------------------------------------------*/
+
+
+.bestbuy {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.bestbuy h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: start;
+    padding: 50px 0;
+}
+.bestbuy-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+
+/* PAGES SECTION -------------------------------------------*/
+
+
+.information {
+    background-color: white;
+    padding: 0 50px 100px 100px;
+}
+.information h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 50px 0;
+}
+.information-items{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+}
+.square{
+    Width:150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+.square img {
+    padding: 25px;
+}
+.cards{
+    width:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+    gap: 15px;
+}
+
+
+/* TESTIMONIAL SECTION -------------------------------------------*/
+
+
+.testimonial {
+    background-color: #E5E7Eb;
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.reviews{
+    
+
+}
+.taggbox {
+    width:100;
+    height: 100;
+    margin-bottom: 50px;
+}
+
+
+/* SIGN UP SECTION -------------------------------------------*/
+
+
+.sign-up{
+    background-color: white;
+    padding: 50px 50px;  
+}
+
+.action{
+    background-color: #3882F6;
+    color:white;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    width: 800px;
+    margin: 50px auto;
+}
+
+.action button {
+    border: 3px solid white;
+}
+
+.action h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.action p {
+    font-size: 20px;
+    padding: 0px 5px;
+    margin-top: 5px;
+}
+
+.action button {
+    font-size: 25px;
+}
+
+
+/* FOOTER SECTION -------------------------------------------*/
+
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 15px;
+    padding:25px 0;
+}
+
+.contact-us{
+    width:800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #E5E7EB;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+#contact{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-info{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #E5E7EB;
+}
+
+.footer h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #E5E7EB;
+    margin-bottom: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 5px;
+}
+
+input {
+    height:25px;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 50px;
+    border-radius: 5px;
+}
+
+
+.footnote {
+    width: 400px;
+    margin: auto;
+}
